@@ -24,7 +24,7 @@ function Index() {
               ∂
             </div>
             <div>
-              <h1 className="text-lg font-semibold tracking-tight">OptiContainer</h1>
+              <h1 className="text-lg font-semibold tracking-tight">Optipack</h1>
               <p className="text-xs text-muted-foreground font-mono">Cálculo 2 · Multiplicadores de Lagrange</p>
             </div>
           </div>

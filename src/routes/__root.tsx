@@ -48,7 +48,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "OptiContainer — Optimización de volumen con Lagrange" },
+      { title: "Optipack — Optimización de volumen con Lagrange" },
       { name: "description", content: "Calcula las dimensiones óptimas de cilindros, cajas, conos y pirámides para maximizar volumen dado un área lateral, mediante multiplicadores de Lagrange." },
     ],
     links: [{ rel: "stylesheet", href: appCss }, { rel: "preconnect", href: "https://fonts.googleapis.com" }, { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" }],
