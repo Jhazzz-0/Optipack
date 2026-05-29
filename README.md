@@ -1,8 +1,9 @@
-# 📦 Optipack — Optimización de Contenedores 3D
+# 📦 Optipack 
+Optimización de Contenedores 3D
 
-Aplicación web educativa para **Cálculo II** que calcula las dimensiones óptimas de contenedores 3D para **maximizar el volumen** dado un área superficial fija, utilizando **Multiplicadores de Lagrange**.
+La aplicación calcula las dimensiones óptimas de contenedores 3D para **maximizar el volumen** dado un área superficial fija, utilizando **Multiplicadores de Lagrange**.
 
-🔗 **Demo en vivo**: [tanstack-start-app.optimizador-contenedores.workers.dev](https://tanstack-start-app.optimizador-contenedores.workers.dev/)
+🔗 **Optipack**: [App](https://tanstack-start-app.optimizador-contenedores.workers.dev/)
 
 ---
 
@@ -26,11 +27,11 @@ Aplicación web educativa para **Cálculo II** que calcula las dimensiones ópti
 
 ## 🛠️ Tecnologías
 
-- **React 19** + **TypeScript** — UI con tipos estáticos
-- **TanStack Start** — Framework con SSR
-- **Vite 7** — Bundler
-- **Tailwind CSS v4** — Estilos
-- **Cloudflare Workers** — Deploy serverless
+- **React 19** + **TypeScript**
+- **TanStack Start**
+- **Vite 7** 
+- **Tailwind CSS v4** 
+- **Cloudflare Workers**
 
 ## 🚀 Instalación y uso
 
@@ -51,19 +52,19 @@ El proyecto sigue una arquitectura por capas:
 
 ```
 src/
-├── routes/           ← 🖥️ Presentación (páginas)
+├── routes/           ← Presentación (páginas)
 │   ├── __root.tsx    ← Layout HTML general
 │   └── index.tsx     ← Página principal (controlador + UI)
 │
-├── components/       ← 🖥️ Presentación (componentes)
+├── components/       ← Presentación (componentes)
 │   └── ShapeIcon.tsx ← Iconos SVG de las formas
 │
-├── lib/              ← 🧠 Dominio (lógica)
+├── lib/              ← Dominio (lógica)
 │   └── shapes.ts     ← Matemática de Lagrange
 │
-├── server.ts         ← ⚙️ Infraestructura
-├── start.ts          ← ⚙️ Infraestructura
-└── router.tsx        ← ⚙️ Infraestructura
+├── server.ts         ← Infraestructura
+├── start.ts          ← Infraestructura
+└── router.tsx        ← Infraestructura
 ```
 
 ## 📚 Concepto matemático
@@ -78,8 +79,9 @@ Se obtienen las derivadas parciales, se plantea el sistema de ecuaciones y se re
 
 ## 👥 Autores
 
-Proyecto para la materia de Cálculo II.
+Josefina Carabajal,
+Jhaziel Mamani,
+Lilian Laime,
+Elias Torres,
+Gaston Maidana
 
-## 📄 Licencia
-
-Proyecto académico — uso educativo.
