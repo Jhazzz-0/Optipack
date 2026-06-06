@@ -3,7 +3,7 @@ Optimización de Contenedores 3D
 
 La aplicación calcula las dimensiones óptimas de contenedores 3D para maximizar el volumen dado un área superficial fija, utilizando Multiplicadores de Lagrange.
 
-🔗 **Optipack**: [App](https://tanstack-start-app.optimizador-contenedores.workers.dev/)
+🔗 **Optipack**: [App](https://optipack.optipack-app.workers.dev)
 
 ---
 
@@ -13,6 +13,10 @@ La aplicación calcula las dimensiones óptimas de contenedores 3D para maximiza
 2. Ingresa el área lateral disponible (cm²)
 3. La app calcula las dimensiones que maximizan el volumen
 4. Muestra el desarrollo paso a paso del método de Lagrange
+
+![Optipack - pantalla principal](images/image.png)
+![Optipack - resultados](images/image-1.png)
+![Optipack - cálculo](images/image-2.png)
 
 ## 📐 Formas soportadas
 
