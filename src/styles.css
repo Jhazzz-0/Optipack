@@ -35,26 +35,26 @@
 
 :root {
   --radius: 0.5rem;
-  --background: oklch(0.985 0.005 95);
-  --foreground: oklch(0.18 0.04 250);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.18 0.04 250);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.18 0.04 250);
-  --primary: oklch(0.3 0.1 250);
-  --primary-foreground: oklch(0.98 0.005 95);
-  --secondary: oklch(0.94 0.015 240);
-  --secondary-foreground: oklch(0.22 0.05 250);
-  --muted: oklch(0.95 0.01 240);
-  --muted-foreground: oklch(0.45 0.03 250);
-  --accent: oklch(0.78 0.16 75);
-  --accent-foreground: oklch(0.2 0.05 250);
-  --success: oklch(0.62 0.15 155);
-  --destructive: oklch(0.6 0.22 27);
-  --destructive-foreground: oklch(0.98 0 0);
-  --border: oklch(0.88 0.02 240);
-  --input: oklch(0.92 0.015 240);
-  --ring: oklch(0.55 0.12 250);
+  --background: #F9F6F0;
+  --foreground: #2C2A29;
+  --card: #FFFFFF;
+  --card-foreground: #2C2A29;
+  --popover: #FFFFFF;
+  --popover-foreground: #2C2A29;
+  --primary: #D93B2B;
+  --primary-foreground: #FFFFFF;
+  --secondary: #FAF7F2;
+  --secondary-foreground: #7A7670;
+  --muted: #F0EEEA;
+  --muted-foreground: #7A7670;
+  --accent: #E07A5F;
+  --accent-foreground: #D93B2B;
+  --success: #2E7D32;
+  --destructive: #B02012;
+  --destructive-foreground: #FFFFFF;
+  --border: #E8DCD0;
+  --input: #E8DCD0;
+  --ring: #D93B2B;
 }
 
 @layer base {
@@ -66,8 +66,8 @@
     color: var(--color-foreground);
     font-family: var(--font-display);
     background-image:
-      radial-gradient(circle at 15% 20%, oklch(0.92 0.04 250 / 0.6), transparent 50%),
-      radial-gradient(circle at 85% 80%, oklch(0.9 0.08 75 / 0.35), transparent 55%);
+      radial-gradient(circle at 15% 20%, rgba(224, 122, 95, 0.05), transparent 50%),
+      radial-gradient(circle at 85% 80%, rgba(217, 59, 43, 0.03), transparent 55%);
     min-height: 100vh;
   }
   .font-mono {
